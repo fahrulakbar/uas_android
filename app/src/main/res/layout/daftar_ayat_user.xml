@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.myapp.ayatayatsukses.DaftarAyatUser">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listAyatAyatUser"
+        android:padding="6dp"
+        android:clipToPadding="false"
+        android:scrollbars="none"
+        android:visibility="gone"/>
+
+    <include layout="@layout/loading_result"/>
+
+
+</RelativeLayout>

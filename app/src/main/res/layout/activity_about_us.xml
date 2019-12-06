@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    tools:context=".AboutUs">
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/customborder"
+        android:backgroundTint="#DDA5A5">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gambarndas" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="270dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/customborder"
+        android:backgroundTint="#DDA5A5">
+
+        <TextView
+            android:id="@+id/bio_insert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/kembali"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_arti"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/customborder"
+        android:text="KEMBALI"
+        android:textColor="#fff"
+        android:backgroundTint="#9977DB"
+        android:onClick="kembaliMenu"
+        />
+
+</LinearLayout>

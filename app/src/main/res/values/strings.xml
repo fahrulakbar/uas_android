@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AYO PUASA...!</string>
+    <string name="admin">Admin</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="Kaidah">Kaidah</string>
+    <string name="login">Login as an Admin</string>
+    <string name="list_ayat">List Ayat</string>
+    <string name="detail">Detail</string>
+    <string name="ubah_data">Ubah Data</string>
+    <string name="tambah_data">Menambah Data</string>
+    <string name="kaidah">Kaidah</string>
+    <string name="ayat_sukses">PENDOMAN IBADAH</string>
+</resources>

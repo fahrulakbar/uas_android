@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myapp.ayatayatsukses">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logocilik"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/gradient"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".AboutUs"
+            android:label="Tentang Kami"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity
+            android:name=".Kaidah"
+            android:label="@string/kaidah"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Home"
+            android:label="@string/ayat_sukses"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DisplayData"
+            android:label="@string/detail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DaftarAyat"
+            android:label="@string/list_ayat" />
+        <activity
+            android:name=".DaftarAyatUser"
+            android:label="@string/list_ayat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainEdit"
+            android:label="@string/ubah_data"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainInsert"
+            android:label="@string/tambah_data"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

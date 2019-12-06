@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    tools:context="com.myapp.ayatayatsukses.MainEdit">
+
+    <EditText
+        android:id="@+id/edit_id"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/customborder"
+        android:textColor="#fff"
+        android:text="ID"
+        android:visibility="gone"
+        />
+
+    <EditText
+        android:id="@+id/edit_nama"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/edit_id"
+        android:background="@drawable/customborder"
+        android:textColor="#000"
+        android:backgroundTint="#fff"
+        android:layout_marginTop="20dp"
+        android:text="Nama Ayat" />
+
+    <EditText
+        android:id="@+id/edit_isi"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/edit_nama"
+        android:background="@drawable/customborder"
+        android:textColor="#000"
+        android:backgroundTint="#fff"
+        android:layout_marginTop="20dp"
+        android:text="Isi Ayat" />
+
+    <EditText
+        android:id="@+id/edit_arti"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/edit_isi"
+        android:background="@drawable/customborder"
+        android:textColor="#000"
+        android:backgroundTint="#fff"
+        android:layout_marginTop="20dp"
+        android:text="Arti Ayat" />
+
+    <Button
+        android:id="@+id/btn_lihat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_arti"
+        android:layout_marginTop="20dp"
+        android:onClick="lihat"
+        android:background="@drawable/customborder"
+        android:textColor="#fff"
+        android:backgroundTint="#9977DB"
+        android:text="LIHAT" />
+
+    <Button
+        android:id="@+id/ubah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_lihat"
+        android:background="@drawable/customborder"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:backgroundTint="#9977DB"
+        android:text="UBAH" />
+
+    <Button
+        android:id="@+id/hapus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ubah"
+        android:background="@drawable/customborder"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:backgroundTint="#9977DB"
+        android:text="HAPUS" />
+
+</LinearLayout>

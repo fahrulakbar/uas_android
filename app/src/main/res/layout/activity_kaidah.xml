@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    tools:context=".Kaidah">
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/customborder"
+        android:backgroundTint="#DDA5A5">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gambarndas" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/customborder"
+        android:backgroundTint="#DDA5A5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:text="      Kita dituntut ‘berusaha’ sungguh-sungguh, terus belajar dan cerdas, namun apakah mungkin rezeki bisa kita peroleh jika Allah Ta’ala murka (tidak ridho) terhadap kita ? sedangkan Ia adalah pemilik perbendaharaan alam semesta ini ? tentulah sangat naif jika kita bekerja banting tulang ingin memperoleh rezeki dibumi milikNya menggunakan tubuh yang diberikanNya namun dengan cara yang dimurkaiNya, selalu bermaksiat kepadaNya dan tidak perduli kepada hamba-hambaNya yang lemah, apakah mungkin ? ataukah sebaliknya, rezeki yang diperoleh justru melimpah tapi tidak berkah ? malah menjadi musibah ? istri selingkuh, anak durhaka, dll.
+
+“Barangsiapa bertaqwa kepada Allah dengan melakukan apa yang diperintahkanNya dan meninggalkan apa yang dilarangNya, niscaya Allah akan memberinya jalan keluar serta rizki dari arah yg tidak disangka-sangka, yakni dari arah yang tidak pernah terlintas dalam benaknya.” QS. Ath-Thalaq: 2-3 (Tafsir Ibnu Katsir)
+\n\nTerdapat beberapa kaidah untuk mencapai kesuksesan :
+\n\n1.Hati (qalbu)\nAdalah alat untuk memahami Al-Qur’an. Sedangkan tabiat hati, tunduk pada kehendak Allah yang membolak-balikkannya sesuai kehendak-Nya. Jelas, dalam hal ini, seorang hamba sangat membutuhkan Tuhannya yang akan membukakan hatinya untuk memahami Al-Qur’an, sehingga ia berkesempatan untuk menelusuri kandungan dan harta karun Al-Qur’an.
+\n\n2.Target, tujuan atau urgensi\nMaksudnya, menghadirkan target-target dari membaca Al-Qur’an sebagai jawaban dari pertanyaan, mengapa saya membaca Al-Qur’an? Apa tujuan dan manfaat bagi saya dalam membaca Al-Qur’an? Dan seterusnya.
+\n\n3.Shalat\nMaksudnya, agar bisa membaca dengan tadabur harus dalam shalat.Rasulullah Saw. dan para sahabatnya sangat senang dengan shalat. Dalam melakukan shalat (terutama shalat sunah), mereka berpanjang-panjang dalam membaca Al-Qur’an, menyimaknya, mengulang-ulang ayat-ayat-Nya, dan menangis di dalamnya.
+"
+            android:textColor="#fff"
+            android:textSize="12sp"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
