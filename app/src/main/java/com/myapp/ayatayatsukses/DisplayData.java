@@ -30,6 +30,7 @@ public class DisplayData extends AppCompatActivity {
         setContentView(R.layout.activity_form_user);
 
         ID_AYAT = Integer.parseInt(getIntent().getStringExtra("data1"));
+        Log.d("pesan", String.valueOf(ID_AYAT));
 
         et_id = (TextView) findViewById(R.id.tv_id);
         et_nama = (TextView) findViewById(R.id.tv_nama);

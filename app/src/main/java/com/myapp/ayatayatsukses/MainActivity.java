@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String ROOT_URL = "http://192.168.137.1:80/api_puasa/";
+    public static final String ROOT_URL = "https://cuckoo-capacitance.000webhostapp.com/uasmobile/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -41,6 +41,31 @@ public class Home extends AppCompatActivity {
         v_flipper.setOutAnimation(this, android.R.anim.slide_out_right);
     }
 
+    public void goAyatSukses1(View view) {
+        Intent goAyatSukses = new Intent(Home.this,DisplayData.class);
+        goAyatSukses.putExtra("data1", "1");
+        startActivity(goAyatSukses);
+    }
+    public void goAyatSukses2(View view) {
+        Intent goAyatSukses = new Intent(Home.this,DisplayData.class);
+        goAyatSukses.putExtra("data1", "2");
+        startActivity(goAyatSukses);
+    }
+    public void goAyatSukses3(View view) {
+        Intent goAyatSukses = new Intent(Home.this,DisplayData.class);
+        goAyatSukses.putExtra("data1", "3");
+        startActivity(goAyatSukses);
+    }
+    public void goAyatSukses4(View view) {
+        Intent goAyatSukses = new Intent(Home.this,DisplayData.class);
+        goAyatSukses.putExtra("data1", "4");
+        startActivity(goAyatSukses);
+    }
+    public void goAyatSukses5(View view) {
+        Intent goAyatSukses = new Intent(Home.this,DisplayData.class);
+        goAyatSukses.putExtra("data1", "5");
+        startActivity(goAyatSukses);
+    }
     public void goAyatSukses6(View view) {
         Intent goAyatSukses = new Intent(Home.this,DisplayData.class);
         goAyatSukses.putExtra("data1", "6");
@@ -64,21 +89,6 @@ public class Home extends AppCompatActivity {
     public void goAyatSukses10(View view) {
         Intent goAyatSukses = new Intent(Home.this,DisplayData.class);
         goAyatSukses.putExtra("data1", "10");
-        startActivity(goAyatSukses);
-    }
-    public void goAyatSukses11(View view) {
-        Intent goAyatSukses = new Intent(Home.this,DisplayData.class);
-        goAyatSukses.putExtra("data1", "11");
-        startActivity(goAyatSukses);
-    }
-    public void goAyatSukses12(View view) {
-        Intent goAyatSukses = new Intent(Home.this,DisplayData.class);
-        goAyatSukses.putExtra("data1", "12");
-        startActivity(goAyatSukses);
-    }
-    public void goAyatSukses13(View view) {
-        Intent goAyatSukses = new Intent(Home.this,DisplayData.class);
-        goAyatSukses.putExtra("data1", "13");
         startActivity(goAyatSukses);
     }
 

@@ -64,7 +64,7 @@
                     android:backgroundTint="#FFFF"
                     android:outlineSpotShadowColor="#000000"
                     android:background="@drawable/customborder"
-                    android:onClick="goAyatSukses6">
+                    android:onClick="goAyatSukses1">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -102,7 +102,7 @@
                     android:orientation="vertical"
                     android:background="@drawable/customborder"
                     android:backgroundTint="#FFFF"
-                    android:onClick="goAyatSukses7">
+                    android:onClick="goAyatSukses2">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -138,7 +138,7 @@
                     android:orientation="vertical"
                     android:background="@drawable/customborder"
                     android:backgroundTint="#FFFF"
-                    android:onClick="goAyatSukses8">
+                    android:onClick="goAyatSukses3">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -185,7 +185,7 @@
                         android:orientation="vertical"
                         android:background="@drawable/customborder"
                         android:backgroundTint="#FFFF"
-                        android:onClick="goAyatSukses9">
+                        android:onClick="goAyatSukses4">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -221,7 +221,7 @@
                         android:orientation="vertical"
                         android:background="@drawable/customborder"
                         android:backgroundTint="#FFFF"
-                        android:onClick="goAyatSukses10">
+                        android:onClick="goAyatSukses5">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -257,7 +257,7 @@
                         android:orientation="vertical"
                         android:background="@drawable/customborder"
                         android:backgroundTint="#FFFF"
-                        android:onClick="goAyatSukses11">
+                        android:onClick="goAyatSukses6">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -305,7 +305,7 @@
                         android:orientation="vertical"
                         android:background="@drawable/customborder"
                         android:backgroundTint="#FFFF"
-                        android:onClick="goAyatSukses12">
+                        android:onClick="goAyatSukses7">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -341,7 +341,7 @@
                         android:orientation="vertical"
                         android:background="@drawable/customborder"
                         android:backgroundTint="#FFFF"
-                        android:onClick="goAyatSukses13">
+                        android:onClick="goAyatSukses8">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -377,7 +377,7 @@
                         android:orientation="vertical"
                         android:background="@drawable/customborder"
                         android:backgroundTint="#FFFF"
-                        android:onClick="goAyatSukses6">
+                        android:onClick="goAyatSukses9">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -426,7 +426,7 @@
                         android:orientation="vertical"
                         android:background="@drawable/customborder"
                         android:backgroundTint="#FFFF"
-                        android:onClick="goAyatSukses7">
+                        android:onClick="goAyatSukses10">
 
                         <LinearLayout
                             android:layout_width="match_parent"
