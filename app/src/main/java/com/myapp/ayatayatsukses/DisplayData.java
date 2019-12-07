@@ -28,7 +28,6 @@ public class DisplayData extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_form_user);
-
         ID_AYAT = Integer.parseInt(getIntent().getStringExtra("data1"));
         Log.d("pesan", String.valueOf(ID_AYAT));
 
@@ -36,6 +35,7 @@ public class DisplayData extends AppCompatActivity {
         et_nama = (TextView) findViewById(R.id.tv_nama);
         et_isi = (TextView) findViewById(R.id.tv_isi);
         et_arti = (TextView) findViewById(R.id.tv_arti);
+
 
         bindData();
     }
@@ -45,32 +45,29 @@ public class DisplayData extends AppCompatActivity {
                 .baseUrl(MainActivity.ROOT_URL)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
-
         ApiService service = retrofit.create(ApiService.class);
-
         Call<List<ModelData>>call = service.getSingleData(ID_AYAT);
         call.enqueue(new Callback<List<ModelData>>() {
+
             @Override
             public void onResponse(Call<List<ModelData>> call, Response<List<ModelData>> response) {
-
                 if (response.isSuccessful()) {
-
                     for (int i = 0; i < response.body().size(); i++) {
-
+                        Log.d("pesan123",response.body().toString());
                         et_id.setText(response.body().get(i).getId());
-                        Log.i("mesage", String.valueOf(et_id));
                         et_nama.setText(response.body().get(i).getNm_ayat());
                         et_isi.setText(response.body().get(i).getIsi_ayat());
                         et_arti.setText(response.body().get(i).getArti_ayat());
                     }
-
+                }else {
+                    et_arti.setText("asuuu");
                 }
 
             }
 
             @Override
             public void onFailure(Call<List<ModelData>> call, Throwable t) {
-
+                et_arti.setText("asuuu");
             }
         });
     }
