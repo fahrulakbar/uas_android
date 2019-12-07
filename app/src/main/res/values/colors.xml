@@ -7,5 +7,8 @@
     <color name="colorNavIcon">#dae9f6</color>
     <color name="colorNavText">#01294b</color>
 
+    <color name="white">#FFFFFF</color>
+    <color name="signupColor">#066e8a</color>
+
 
 </resources>

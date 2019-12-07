@@ -88,6 +88,14 @@ public class Home extends AppCompatActivity {
         goAyatSukses.putExtra("data1", "10");
         startActivity(goAyatSukses);
     }
+    public void goAyatSukses11(View view) {
+        Intent goAyatSukses = new Intent(Home.this,AboutUs.class);
+        startActivity(goAyatSukses);
+    }
+    public void goAyatSukses12(View view) {
+        Intent goAyatSukses = new Intent(Home.this,LoginActivity.class);
+        startActivity(goAyatSukses);
+    }
 
 
 

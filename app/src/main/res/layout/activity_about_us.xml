@@ -4,58 +4,170 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/back"
     android:orientation="vertical"
-    android:background="@drawable/gradient"
-    tools:context=".AboutUs">
+    tools:context=".AboutUs"
+    android:gravity="center"
+    android:padding="20dp">
 
-    <RelativeLayout
-        android:layout_width="350dp"
-        android:layout_height="160dp"
-        android:layout_centerHorizontal="true"
-        android:layout_gravity="center"
-        android:layout_marginTop="40dp"
-        android:background="@drawable/customborder"
-        android:backgroundTint="#DDA5A5">
-
-        <ImageView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/gambarndas" />
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
 
-    </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#FFFF">
 
-    <RelativeLayout
-        android:layout_width="350dp"
-        android:layout_height="270dp"
-        android:layout_centerHorizontal="true"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/customborder"
-        android:backgroundTint="#DDA5A5">
-
-        <TextView
-            android:id="@+id/bio_insert"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:textColor="#fff"
-            />
-
-    </RelativeLayout>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/about2" />
 
 
-    <Button
-        android:id="@+id/kembali"
-        android:layout_width="350dp"
-        android:layout_gravity="center"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tv_arti"
-        android:layout_marginTop="30dp"
-        android:background="@drawable/customborder"
-        android:text="KEMBALI"
-        android:textColor="#fff"
-        android:backgroundTint="#9977DB"
-        android:onClick="kembaliMenu"
-        />
+                </RelativeLayout>
 
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#FFFF">
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TableRow
+                            android:layout_marginTop="10dp"
+                            android:gravity="center">
+                            <TextView
+                                android:layout_column="0"
+                                android:text="Dosen Pengampu : "
+                                android:textSize="20dp"
+                                android:gravity="center"/>
+                        </TableRow>
+                        <TableRow
+                            android:layout_marginTop="10dp"
+                            android:gravity="center">
+                            <TextView
+                                android:layout_column="0"
+                                android:text="SUPRIYONO,M.Kom"
+                                android:textSize="20dp"
+                                android:textStyle="bold"
+                                android:padding="3dip" />
+                        </TableRow>
+                    </TableLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#FFFF">
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TableRow
+                            android:layout_marginTop="10dp"
+                            android:gravity="center">
+                            <TextView
+                                android:layout_column="0"
+                                android:text="Asisten Lab : "
+                                android:textSize="20dp"
+                                android:gravity="center"/>
+                        </TableRow>
+                        <TableRow
+                            android:layout_marginTop="10dp"
+                            android:gravity="center">
+                            <TextView
+                                android:layout_column="0"
+                                android:text="MR. XXX dan MR. XX"
+                                android:textSize="20dp"
+                                android:textStyle="bold"
+                                android:padding="3dip" />
+                        </TableRow>
+                    </TableLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#FFFF">
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TableRow
+                            android:layout_marginTop="10dp"
+                            android:gravity="center">
+                            <TextView
+                                android:layout_column="0"
+                                android:text="Kelompok : "
+                                android:textSize="20dp"
+                                android:gravity="center"/>
+                        </TableRow>
+                        <TableRow
+                            android:layout_marginTop="10dp"
+                            android:gravity="center">
+                            <TextView
+                                android:layout_column="0"
+                                android:text="MR. XXX 16765xxx \n MR. XX 16765xxx \n MR. XX 16765xxx"
+                                android:textSize="20dp"
+                                android:textStyle="bold"
+                                android:padding="3dip" />
+                        </TableRow>
+
+                    </TableLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
 </LinearLayout>

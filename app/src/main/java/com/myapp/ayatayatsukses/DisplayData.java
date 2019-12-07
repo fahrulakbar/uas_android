@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -31,6 +30,7 @@ public class DisplayData extends AppCompatActivity {
         setContentView(R.layout.activity_form_user);
 
         ID_AYAT = Integer.parseInt(getIntent().getStringExtra("data1"));
+        Log.d("pesan", String.valueOf(ID_AYAT));
 
         et_id = (TextView) findViewById(R.id.tv_id);
         et_nama = (TextView) findViewById(R.id.tv_nama);
@@ -47,14 +47,12 @@ public class DisplayData extends AppCompatActivity {
                 .build();
 
         ApiService service = retrofit.create(ApiService.class);
+
         Call<List<ModelData>>call = service.getSingleData(ID_AYAT);
-
         call.enqueue(new Callback<List<ModelData>>() {
-
-
             @Override
             public void onResponse(Call<List<ModelData>> call, Response<List<ModelData>> response) {
-                Log.i("mesage", String.valueOf(response));
+
                 if (response.isSuccessful()) {
 
                     for (int i = 0; i < response.body().size(); i++) {
